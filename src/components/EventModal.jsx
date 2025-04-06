@@ -7,14 +7,12 @@ function EventModal({ event, onClose }) {
   const contentRef = useRef(null);
   
   useEffect(() => {
-    // Close modal when clicking outside
     const handleOutsideClick = (e) => {
       if (modalRef.current && !modalRef.current.contains(e.target)) {
         onClose();
       }
     };
     
-    // Close modal when pressing Escape key
     const handleEscKey = (e) => {
       if (e.key === 'Escape') {
         onClose();
@@ -101,19 +99,18 @@ function EventModal({ event, onClose }) {
           </div>
           
           <div className="mt-8 flex justify-end">
-            <a 
-              href="#register" 
-              className="cyber-border px-8 py-3 bg-gradient-to-r from-cyberblue to-cyberpink hover:opacity-90 transition-all duration-300 text-white rounded-sm"
-              onClick={(e) => {
-                e.preventDefault();
-                onClose();
-                setTimeout(() => {
-                  document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' });
-                }, 100);
-              }}
-            >
-              Register for this Event
-            </a>
+            {event.registrationLink ? (
+              <a 
+                href={event.registrationLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="cyber-border px-8 py-3 bg-gradient-to-r from-cyberblue to-cyberpink hover:opacity-90 transition-all duration-300 text-white rounded-sm"
+              >
+                Register for this Event
+              </a>
+            ) : (
+              <span className="text-gray-400 italic">Registration link coming soon</span>
+            )}
           </div>
         </div>
       </div>
