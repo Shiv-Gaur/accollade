@@ -6,131 +6,77 @@ import EventModal from './EventModal';
 function Events() {
   const [filter, setFilter] = useState('All');
   const [selectedEvent, setSelectedEvent] = useState(null);
-  const categories = ['All', 'Competition', 'Workshop', 'Exhibition', 'Talk'];
+  const categories = ['All', 'Ground events', 'Workshop'];
   
   const events = [
     {
       id: 1,
-      title: "Hackathon",
+      title: "Artistein",
       category: "Competition",
       image: "/assets/Artstein.png",
-      description: "48-hour coding marathon to build innovative solutions to real-world problems",
-      fullDescription: "Our flagship hackathon brings together the brightest minds to solve challenging problems in a 48-hour coding marathon. Participants will work in teams to develop innovative solutions using cutting-edge technologies.",
-      details: [
-        "Teams of 2-4 participants",
-        "Prizes worth $10,000",
-        "Mentorship from industry experts",
-        "Hardware and API resources provided"
-      ],
-      schedule: [
-        { time: "Day 1, 10:00 AM", activity: "Registration & Team Formation" },
-        { time: "Day 1, 12:00 PM", activity: "Kickoff & Problem Statements" },
-        { time: "Day 2, 10:00 AM", activity: "Mid-way Check" },
-        { time: "Day 2, 8:00 PM", activity: "Final Submissions" },
-        { time: "Day 3, 11:00 AM", activity: "Presentations & Judging" }
-      ]
+      description: "...",
+      fullDescription: "...",
+      details: [],
+      schedule: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform"
     },
     {
       id: 2,
-      title: "Robowars",
+      title: "Squid Games",
       category: "Competition",
-      image: "/assets/squid.png", 
-      description: "Battle it out with your custom-built robots in this high-energy competition",
-      fullDescription: "Robowars is an adrenaline-pumping robot combat competition where participants design and build remote-controlled machines to battle in an arena. Bring your most resilient and powerful robot to compete for glory.",
-      details: [
-        "Weight categories: 15kg, 30kg, 60kg",
-        "Arena with hazards and obstacles",
-        "Double elimination tournament",
-        "Technical inspection required before battles"
-      ],
-      schedule: [
-        { time: "Day 1, 2:00 PM", activity: "Technical Inspection" },
-        { time: "Day 1, 5:00 PM", activity: "Preliminary Rounds" },
-        { time: "Day 2, 3:00 PM", activity: "Quarter & Semi Finals" },
-        { time: "Day 2, 7:00 PM", activity: "Finals & Award Ceremony" }
-      ]
+      image: "/assets/squid.png",
+      description: "...",
+      fullDescription: "...",
+      details: [],
+      schedule: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform"
     },
     {
       id: 3,
-      title: "AI Workshop",
+      title: "Shankhnaad",
       category: "Workshop",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=600&h=400",
-      description: "Learn the latest AI techniques from industry experts",
-      fullDescription: "This hands-on workshop will introduce participants to the latest developments in artificial intelligence. Led by industry experts, you'll learn practical applications of machine learning, deep learning, and neural networks.",
-      details: [
-        "No prior experience required",
-        "Laptop with Python installed needed",
-        "Certificate of completion provided",
-        "Take-home projects included"
-      ],
-      schedule: [
-        { time: "10:00 AM", activity: "Introduction to AI Concepts" },
-        { time: "11:30 AM", activity: "Hands-on with ML Models" },
-        { time: "2:00 PM", activity: "Neural Networks Workshop" },
-        { time: "4:00 PM", activity: "Building Your First AI Application" }
-      ]
+      image: "/assets/shankhnaadmain.png",
+      description: "...",
+      fullDescription: "...",
+      details: [],
+      schedule: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform"
     },
     {
       id: 4,
-      title: "Cyber Security CTF",
+      title: "Tarang",
       category: "Competition",
-      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&h=400",
-      description: "Test your hacking skills in this Capture The Flag event",
-      fullDescription: "Our Capture The Flag (CTF) competition challenges security enthusiasts to solve a series of cybersecurity puzzles and challenges. Test your skills in cryptography, reverse engineering, web exploitation, and more.",
-      details: [
-        "Individual or team participation",
-        "Jeopardy-style challenges",
-        "Multiple difficulty levels",
-        "Real-time scoreboard"
-      ],
-      schedule: [
-        { time: "9:00 AM", activity: "Competition Begins" },
-        { time: "12:00 PM", activity: "Hint Release" },
-        { time: "5:00 PM", activity: "Competition Ends" },
-        { time: "6:00 PM", activity: "Solutions & Award Ceremony" }
-      ]
+      image: "/assets/tarang.png",
+      description: "...",
+      fullDescription: "...",
+      details: [],
+      schedule: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSe5vNDN5P0agq8b61Cn7PuFdWtmm6AAqgD5hlKTlXR2of1fBw/viewform"
     },
     {
       id: 5,
-      title: "AR/VR Expo",
+      title: "Code Hunt",
       category: "Exhibition",
-      image: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=600&h=400",
-      description: "Experience cutting-edge augmented and virtual reality technology",
-      fullDescription: "Step into the future at our AR/VR Expo, showcasing the latest innovations in augmented and virtual reality. Experience immersive demos from leading companies and startups pushing the boundaries of this technology.",
-      details: [
-        "Interactive demos available",
-        "VR gaming competitions",
-        "Industry expert panels",
-        "Startup showcase area"
-      ],
-      schedule: [
-        { time: "All Day", activity: "Open Exhibition" },
-        { time: "11:00 AM", activity: "Industry Panel Discussion" },
-        { time: "2:00 PM", activity: "VR Gaming Tournament" },
-        { time: "4:00 PM", activity: "Startup Pitches" }
-      ]
+      image: "/assets/codehunt.png",
+      description: "...",
+      fullDescription: "...",
+      details: [],
+      schedule: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfeabsFCY62B94oU8JOU8ZOB_EV2sWK7bW46sYkX8QkXvGWKQ/viewform"
     },
     {
       id: 6,
-      title: "Tech Talk Series",
+      title: "IOT Workshop",
       category: "Talk",
-      image: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=600&h=400",
-      description: "Inspiring talks from industry leaders and innovators",
-      fullDescription: "Our Tech Talk series brings together visionaries, industry leaders, and innovators to share insights on emerging technologies, career development, and the future of tech. Get inspired and expand your network.",
-      details: [
-        "Q&A sessions after each talk",
-        "Networking opportunities",
-        "Access to speaker presentations",
-        "Diverse range of tech topics"
-      ],
-      schedule: [
-        { time: "10:00 AM", activity: "Keynote: Future of Tech" },
-        { time: "12:00 PM", activity: "Panel: Breaking Into Tech" },
-        { time: "2:00 PM", activity: "Talk: Blockchain Revolution" },
-        { time: "4:00 PM", activity: "Talk: AI Ethics & Responsibility" }
-      ]
+      image: "/assets/iot.png",
+      description: "...",
+      fullDescription: "...",
+      details: [],
+      schedule: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform"
     }
   ];
+  
   
   const filteredEvents = filter === 'All' 
     ? events 
