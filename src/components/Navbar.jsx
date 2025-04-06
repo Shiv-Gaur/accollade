@@ -32,7 +32,7 @@ function Navbar({ scrollY }) {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#about" className="text-white hover:text-cyberteal transition-colors">About</a>
+            <a href="/" className="text-white hover:text-cyberteal transition-colors">About</a>
             <Link to="/events" className="text-white hover:text-cyberteal transition-colors">Events</Link>
             <Link to="/gallery" className="text-white hover:text-cyberteal transition-colors">Gallery</Link>
             <a 
@@ -56,7 +56,7 @@ function Navbar({ scrollY }) {
         {isMenuOpen && (
           <div className="md:hidden bg-cyberdark/90 backdrop-blur-md mt-4 py-4 px-2 cyber-border">
             <div className="flex flex-col space-y-4">
-              <a href="#about" className="text-white hover:text-cyberteal px-3 py-2" onClick={() => setIsMenuOpen(false)}>About</a>
+              <a href="/" className="text-white hover:text-cyberteal px-3 py-2" onClick={() => setIsMenuOpen(false)}>About</a>
               <Link to="/events" className="text-white hover:text-cyberteal px-3 py-2" onClick={() => setIsMenuOpen(false)}>Events</Link>
               <Link to="/gallery" className="text-white hover:text-cyberteal px-3 py-2" onClick={() => setIsMenuOpen(false)}>Gallery</Link>
               <a 
