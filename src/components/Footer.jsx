@@ -9,7 +9,7 @@ function Footer() {
           <div>
             <a href="#" className="flex items-center mb-4">
               <span className="text-3xl font-bold cyber-glow">
-                ACCOLADE <span className="text-cyberblue">2024</span>
+                ACCOLLADE <span className="text-cyberblue">3.0</span>
               </span>
             </a>
             <p className="text-gray-400 max-w-md">
@@ -22,7 +22,7 @@ function Footer() {
             <ul className="space-y-2">
               <li><a href="#about" className="text-gray-400 hover:text-cyberteal transition-colors">About</a></li>
               <li><a href="#events" className="text-gray-400 hover:text-cyberteal transition-colors">Events</a></li>
-              <li><a href="#sponsors" className="text-gray-400 hover:text-cyberteal transition-colors">Gallery</a></li>
+              <li><a href="#gallery" className="text-gray-400 hover:text-cyberteal transition-colors">Gallery</a></li>
               <li><a href="#register" className="text-gray-400 hover:text-cyberteal transition-colors">Register</a></li>
             </ul>
           </div>
@@ -36,9 +36,9 @@ function Footer() {
                 </div>
                 <div>
                   <p className="text-gray-400">
-                    University Campus,<br />
-                    Tech Avenue, Innovation District,<br />
-                    City, State - 123456
+                    Graphic Era University ,<br />
+                    Bell Road, Clement Town,<br />
+                    Dehradun, Uttarakhand - 248002
                   </p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ function Footer() {
                   <Clock size={20} />
                 </div>
                 <p className="text-gray-400">
-                  March 15-17, 2024<br />
+                  April 17-19, 2025<br />
                   9:00 AM - 8:00 PM
                 </p>
               </div>
