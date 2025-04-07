@@ -6,7 +6,7 @@ import EventModal from './EventModal';
 function Events() {
   const [filter, setFilter] = useState('All');
   const [selectedEvent, setSelectedEvent] = useState(null);
-  const categories = ['All', 'Ground events', 'Workshop'];
+  const categories = ['All', 'Ground Events', 'Workshop', 'Competition'];
   
   const events = [
     {
@@ -17,29 +17,26 @@ function Events() {
       description: "...",
       fullDescription: "...",
       details: [],
-      schedule: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform"
     },
     {
       id: 2,
       title: "Squid Games",
-      category: "Competition",
+      category: "Ground Events",
       image: "/assets/squid.png",
       description: "...",
       fullDescription: "...",
       details: [],
-      schedule: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform"
     },
     {
       id: 3,
       title: "Shankhnaad",
-      category: "Workshop",
+      category: "Competition",
       image: "/assets/shankhnaadmain.png",
       description: "...",
       fullDescription: "...",
       details: [],
-      schedule: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform"
     },
     {
@@ -50,29 +47,32 @@ function Events() {
       description: "...",
       fullDescription: "...",
       details: [],
-      schedule: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSe5vNDN5P0agq8b61Cn7PuFdWtmm6AAqgD5hlKTlXR2of1fBw/viewform"
     },
     {
       id: 5,
       title: "Code Hunt",
-      category: "Exhibition",
+      category: "Competition",
       image: "/assets/codehunt.png",
       description: "...",
       fullDescription: "...",
       details: [],
-      schedule: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfeabsFCY62B94oU8JOU8ZOB_EV2sWK7bW46sYkX8QkXvGWKQ/viewform"
     },
     {
       id: 6,
       title: "IOT Workshop",
-      category: "Talk",
+      category: "Workshop",
       image: "/assets/iot.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
-      schedule: [],
+      description: "Dive into the world of the Internet of Things with our hands-on IOT Workshop.",
+      fullDescription: "The IOT Workshop offers a beginner-friendly, hands-on introduction to the Internet of Things. Participants will explore how to control hardware with software, learn core concepts like Cloud and Edge Computing, and apply their skills by building a mini project.",
+      details: [
+        "IOT Workshop",
+        "Participants will learn basics of IoT",
+        "Will learn how to control hardware components with software",
+        "Will learn basics of Cloud Computing and Edge Computing",
+        "Will make a mini project"
+      ],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform"
     }
   ];
