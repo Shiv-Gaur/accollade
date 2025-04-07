@@ -47,17 +47,11 @@ function Footer() {
                 <div className="text-cyberteal mr-3">
                   <Mail size={20} />
                 </div>
-                <a href="mailto:info@techfest2024.edu" className="text-gray-400 hover:text-cyberteal transition-colors">
-                  info@techfest2024.edu
+                <a href="mailto:accoladegeu@gmail.com" className="text-gray-400 hover:text-cyberteal transition-colors">
+                accoladegeu@gmail.com
                 </a>
               </div>
               
-              <div className="flex items-center">
-                <div className="text-cyberteal mr-3">
-                  <Phone size={20} />
-                </div>
-                <p className="text-gray-400">+91 1234567890</p>
-              </div>
               
               <div className="flex items-start">
                 <div className="text-cyberteal mr-3">
