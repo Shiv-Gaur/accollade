@@ -14,10 +14,12 @@ function Events() {
       title: "Artistein",
       category: "Competition",
       image: "/assets/Artstein.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform"
+      description: "Step into the world of colors, creativity, and cash prizes with Artistein! Join us for 2 exciting workshops—learn the art of Digital Illustration or dive into the cozy craft of Crochet Making and walk away with cool new skills.",
+      details: ["Step into the world of colors, creativity, and cash prizes with Artistein! Join us for 2 exciting workshops—learn the art of Digital Illustration or dive into the cozy craft of Crochet Making and walk away with cool new skills.",
+        "Feeling competitive? Take part in our 4 vibrant competitions: show off your talent in Sketching & Painting, go traditional with Mehendi Moments, rule the ramp in our Fashion Show, or team up with a friend for the wildly fun Duo Art Swap!Big prizes, bigger fun—Artistein is where your art shines!"
+      ],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform",
+      pdfLink: "/assets/Artistein.pdf"
     },
     {
       id: 2,
@@ -37,17 +39,21 @@ function Events() {
       description: "...",
       fullDescription: "...",
       details: [],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform"
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform",
+      pdfLink: "/assets/Shankhnad.pdf"
     },
     {
       id: 4,
       title: "Tarang",
       category: "Competition",
       image: "/assets/tarang.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSe5vNDN5P0agq8b61Cn7PuFdWtmm6AAqgD5hlKTlXR2of1fBw/viewform"
+      description: "This is more than just a competition – it's a celebration of talent.Winners will be awarded certificates, medals, and cash prizes.More importantly, every participant will walk away with enhanced confidence, valuable exposure, and a platform to grow.",
+      fullDescription: "This is more than just a competition – it's a celebration of talent.Winners will be awarded certificates, medals, and cash prizes.More importantly, every participant will walk away with enhanced confidence, valuable exposure, and a platform to grow.",
+      details: ["Nrityotsav – A Stage for Every Performer",
+      "Whether you’re performing solo or as part of a group, Nritautsav is your chance to shine and express your passion.",
+      "Swaryudh – our dynamic singing competition invites voices from every genre and style. From classical to contemporary, Indian to Western, all forms of artistic expression are welcome."],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSe5vNDN5P0agq8b61Cn7PuFdWtmm6AAqgD5hlKTlXR2of1fBw/viewform",
+      pdfLink: "/assets/Tarang.pdf"
     },
     {
       id: 5,
@@ -73,7 +79,8 @@ function Events() {
         "Will learn basics of Cloud Computing and Edge Computing",
         "Will make a mini project"
       ],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform"
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform",
+      pdfLink: "/assets/TDH workshops.pdf"
     }
   ];
   
