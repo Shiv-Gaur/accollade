@@ -98,20 +98,31 @@ function EventModal({ event, onClose }) {
             )}
           </div>
           
-          <div className="mt-8 flex justify-end">
-            {event.registrationLink ? (
-              <a 
-                href={event.registrationLink} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="cyber-border px-8 py-3 bg-gradient-to-r from-cyberblue to-cyberpink hover:opacity-90 transition-all duration-300 text-white rounded-sm"
-              >
-                Register for this Event
-              </a>
-            ) : (
-              <span className="text-gray-400 italic">Registration link coming soon</span>
-            )}
-          </div>
+          <div className="mt-8 flex flex-wrap gap-4 justify-end">
+          {event.registrationLink ? (
+            <a 
+              href={event.registrationLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="cyber-border px-8 py-3 bg-gradient-to-r from-cyberblue to-cyberpink hover:opacity-90 transition-all duration-300 text-white rounded-sm"
+            >
+              Register for this Event
+            </a>
+          ) : (
+            <span className="text-gray-400 italic">Registration link coming soon</span>
+          )}
+
+          {event.pdfLink && (
+            <a 
+              href={event.pdfLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="cyber-border px-8 py-3 bg-gradient-to-r from-cyberpink to-cyberblue hover:opacity-90 transition-all duration-300 text-white rounded-sm"
+            >
+              View Rules
+            </a>
+          )}
+        </div>
         </div>
       </div>
     </div>
