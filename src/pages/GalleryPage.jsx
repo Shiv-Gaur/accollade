@@ -8,7 +8,7 @@ function GalleryPage() {
   const [filter, setFilter] = useState('All');
   const [selectedImage, setSelectedImage] = useState(null);
   
-  const categories = ['All', 'Competitions', 'Workshops', 'Exhibition', 'Behind The Scenes'];
+  const categories = ['All'];
   
   // Handle scroll for navbar
   useEffect(() => {
@@ -25,87 +25,101 @@ function GalleryPage() {
     {
       id: 1,
       category: "Competitions",
-      src: "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g2.png",
       alt: "Tech Conference Main Stage",
       description: "Opening ceremony of our annual tech conference with keynote speakers"
     },
     {
       id: 2,
       category: "Competitions",
-      src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g3.png",
       alt: "Hackathon Team",
       description: "Teams working intensively during our 48-hour hackathon challenge"
     },
     {
       id: 3,
       category: "Workshops",
-      src: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g4.png",
       alt: "Workshop Session",
       description: "Interactive AI workshop led by industry professionals"
     },
     {
       id: 4,
       category: "Exhibition",
-      src: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g5.png",
       alt: "Tech Exhibition",
       description: "Cutting-edge technology showcase with live demonstrations"
     },
     {
       id: 5,
       category: "Exhibition",
-      src: "https://images.unsplash.com/photo-1558008258-3256797b43f3?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g6.png",
       alt: "Innovation Lab",
       description: "Our state-of-the-art innovation lab during a prototype testing session"
     },
     {
       id: 6,
       category: "Competitions",
-      src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g7.png",
       alt: "Coding Competition",
       description: "Participants during the intense coding challenge finals"
     },
     {
       id: 7,
       category: "Behind The Scenes",
-      src: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g8.png",
       alt: "Event Planning",
       description: "Our team during final preparations for the event"
     },
     {
       id: 8,
       category: "Workshops",
-      src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g9.png",
       alt: "Group Discussion",
       description: "Collaborative problem-solving session during our design thinking workshop"
     },
     {
       id: 9,
       category: "Behind The Scenes",
-      src: "https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g10.png",
       alt: "Event Setup",
       description: "Setting up the main stage before the event begins"
     },
     {
       id: 10,
       category: "Competitions",
-      src: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g11.png",
       alt: "Award Ceremony",
       description: "Winners of the robotics competition receiving their awards"
     },
     {
       id: 11,
       category: "Exhibition",
-      src: "https://images.unsplash.com/photo-1533236897111-3e94666b2edf?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g12.png",
       alt: "VR Demo",
       description: "Attendees experiencing our virtual reality exhibition"
     },
     {
       id: 12,
       category: "Workshops",
-      src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g13.png",
       alt: "Hands-on Workshop",
       description: "Participants getting hands-on experience with new technologies"
-    }
+    },
+    {
+      id: 11,
+      category: "Exhibition",
+      src: "/assets/g14.png",
+      alt: "VR Demo",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 11,
+      category: "Exhibition",
+      src: "/assets/g15.png",
+      alt: "VR Demo",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
   ];
   
   const filteredImages = filter === 'All' 
