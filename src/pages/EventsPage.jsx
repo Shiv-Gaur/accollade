@@ -7,7 +7,7 @@ function EventsPage() {
   const [scrollY, setScrollY] = useState(0);
   const [filter, setFilter] = useState('All');
   const [selectedEvent, setSelectedEvent] = useState(null);
-  const categories = ['All', 'Competition', 'Workshop', 'Exhibition', 'Talk'];
+  const categories = ['All', 'Ground Events', 'Workshop', 'Competition'];
   
   // Create refs for each event card
   const cardRefs = useRef([]);
@@ -41,127 +41,100 @@ function EventsPage() {
       title: "Artistein",
       category: "Competition",
       image: "/assets/Artstein.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
-      schedule: [],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform"
+      description: "Step into the world of colors, creativity, and cash prizes with Artistein! Join us for 2 exciting workshops—learn the art of Digital Illustration or dive into the cozy craft of Crochet Making and walk away with cool new skills.",
+      details: ["Step into the world of colors, creativity, and cash prizes with Artistein! Join us for 2 exciting workshops—learn the art of Digital Illustration or dive into the cozy craft of Crochet Making and walk away with cool new skills.",
+        "Feeling competitive? Take part in our 4 vibrant competitions: show off your talent in Sketching & Painting, go traditional with Mehendi Moments, rule the ramp in our Fashion Show, or team up with a friend for the wildly fun Duo Art Swap!Big prizes, bigger fun—Artistein is where your art shines!"
+      ],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform",
+      pdfLink: "/assets/Artistein.pdf"
     },
     {
       id: 2,
       title: "Squid Games",
-      category: "Competition",
+      category: "Ground Events",
       image: "/assets/squid.png",
       description: "...",
       fullDescription: "...",
       details: [],
-      schedule: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform"
     },
     {
       id: 3,
       title: "Shankhnaad",
-      category: "Workshop",
+      category: "Competition",
       image: "/assets/shankhnaadmain.png",
       description: "...",
       fullDescription: "...",
       details: [],
-      schedule: [],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform"
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform",
+      pdfLink: "/assets/Shankhnad.pdf"
     },
     {
       id: 4,
       title: "Tarang",
       category: "Competition",
       image: "/assets/tarang.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
-      schedule: [],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSe5vNDN5P0agq8b61Cn7PuFdWtmm6AAqgD5hlKTlXR2of1fBw/viewform"
+      description: "This is more than just a competition – it's a celebration of talent.Winners will be awarded certificates, medals, and cash prizes.More importantly, every participant will walk away with enhanced confidence, valuable exposure, and a platform to grow.",
+      fullDescription: "This is more than just a competition – it's a celebration of talent.Winners will be awarded certificates, medals, and cash prizes.More importantly, every participant will walk away with enhanced confidence, valuable exposure, and a platform to grow.",
+      details: ["Nrityotsav – A Stage for Every Performer",
+      "Whether you’re performing solo or as part of a group, Nritautsav is your chance to shine and express your passion.",
+      "Swaryudh – our dynamic singing competition invites voices from every genre and style. From classical to contemporary, Indian to Western, all forms of artistic expression are welcome."],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSe5vNDN5P0agq8b61Cn7PuFdWtmm6AAqgD5hlKTlXR2of1fBw/viewform",
+      pdfLink: "/assets/Tarang.pdf"
     },
     {
       id: 5,
       title: "Code Hunt",
-      category: "Exhibition",
+      category: "Competition",
       image: "/assets/codehunt.png",
       description: "...",
       fullDescription: "...",
       details: [],
-      schedule: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfeabsFCY62B94oU8JOU8ZOB_EV2sWK7bW46sYkX8QkXvGWKQ/viewform"
     },
     {
       id: 6,
       title: "IOT Workshop",
-      category: "Talk",
+      category: "Workshop",
       image: "/assets/iot.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
-      schedule: [],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform"
+      description: "Dive into the world of the Internet of Things with our hands-on IOT Workshop.",
+      fullDescription: "The IOT Workshop offers a beginner-friendly, hands-on introduction to the Internet of Things. Participants will explore how to control hardware with software, learn core concepts like Cloud and Edge Computing, and apply their skills by building a mini project.",
+      details: [
+        "IOT Workshop",
+        "Participants will learn basics of IoT",
+        "Will learn how to control hardware components with software",
+        "Will learn basics of Cloud Computing and Edge Computing",
+        "Will make a mini project"
+      ],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform",
+      pdfLink: "/assets/TDH workshops.pdf"
     },
     {
       id: 7,
-      title: "Game Development Jam",
-      category: "Competition",
-      image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&h=400",
-      description: "Create a playable game in just 48 hours with your team",
-      fullDescription: "Push your creativity and coding skills to the limit in our Game Development Jam. Form a team and build a complete, playable game based on a surprise theme revealed at the start of the event.",
-      details: [
-        "Teams of 1-4 participants",
-        "All experience levels welcome",
-        "Tools and engines provided",
-        "Public showcase of all games"
-      ],
-      schedule: [
-        { time: "Day 1, 9:00 AM", activity: "Theme Announcement" },
-        { time: "Day 1, 10:00 AM", activity: "Development Begins" },
-        { time: "Day 2, 10:00 AM", activity: "Progress Check-in" },
-        { time: "Day 2, 10:00 PM", activity: "Submission Deadline" },
-        { time: "Day 3, 1:00 PM", activity: "Public Showcase & Awards" }
-      ]
+      title: "Open Mic",
+      category: "Workshop",
+      image: "/assets/openmic.png",
+      description: "...",
+      fullDescription: "...",
+      details: []
     },
     {
       id: 8,
-      title: "Blockchain Workshop",
-      category: "Workshop",
-      image: "https://images.unsplash.com/photo-1639762681057-408e52192e55?auto=format&fit=crop&w=600&h=400",
-      description: "Learn blockchain fundamentals and build your first dApp",
-      fullDescription: "This comprehensive workshop will take you from blockchain basics to building your own decentralized application. Understand the technology behind cryptocurrencies and explore real-world applications beyond finance.",
-      details: [
-        "Basic coding knowledge required",
-        "Hands-on practical sessions",
-        "Take-home learning materials",
-        "Certificate of completion"
-      ],
-      schedule: [
-        { time: "9:30 AM", activity: "Blockchain Fundamentals" },
-        { time: "11:00 AM", activity: "Smart Contract Development" },
-        { time: "1:30 PM", activity: "Building a Simple dApp" },
-        { time: "3:30 PM", activity: "Deployment & Best Practices" }
-      ]
+      title: "Ground Events",
+      category: "Ground Events",
+      image: "/assets/grnd.png",
+      description: "...",
+      fullDescription: "...",
+      details: []
     },
     {
       id: 9,
-      title: "Drone Racing",
+      title: "Build AI",
       category: "Competition",
-      image: "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=600&h=400",
-      description: "Navigate custom-built drones through a challenging aerial course",
-      fullDescription: "Experience the adrenaline of FPV (First Person View) drone racing as pilots navigate their custom-built quadcopters through gates, obstacles, and tunnels at speeds up to 120 km/h.",
-      details: [
-        "Open and amateur divisions",
-        "Custom-built obstacle course",
-        "FPV goggles experience station",
-        "Drone building workshop available"
-      ],
-      schedule: [
-        { time: "10:00 AM", activity: "Registration & Equipment Check" },
-        { time: "11:30 AM", activity: "Qualification Rounds" },
-        { time: "2:00 PM", activity: "Semi-Finals" },
-        { time: "4:00 PM", activity: "Finals & Award Ceremony" }
-      ]
+      image: "/assets/buildai.png",
+      description: "...",
+      fullDescription: "...",
+      details: []
     }
   ];
   
