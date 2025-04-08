@@ -14,27 +14,27 @@ function Gallery() {
   const galleryImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g1.png",
       alt: "Tech Conference"
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g2.png",
       alt: "Hackathon"
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g3.png",
       alt: "Workshop"
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g4.png",
       alt: "Tech Exhibition"
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1558008258-3256797b43f3?auto=format&fit=crop&w=800&h=500",
+      src: "/assets/g5.png",
       alt: "Innovation Lab"
     },
   ];
