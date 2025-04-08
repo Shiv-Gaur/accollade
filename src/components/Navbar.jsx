@@ -36,7 +36,7 @@ function Navbar({ scrollY }) {
             <Link to="/events" className="text-white hover:text-cyberteal transition-colors">Events</Link>
             <Link to="/gallery" className="text-white hover:text-cyberteal transition-colors">Gallery</Link>
             <a 
-              href="#register" 
+              href="#events" 
               className="cyber-border px-6 py-2 bg-cyberdark hover:bg-cyberblue/20 transition-colors text-white"
             >
               Register
