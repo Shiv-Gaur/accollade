@@ -86,7 +86,7 @@ function Hero() {
           
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center md:justify-start">
             <a 
-              href="#register" 
+              href="/events" 
               className="cyber-border px-8 py-3 bg-cyberblue hover:bg-cyberblue/80 transition-colors text-white text-lg"
             >
               Register Now
