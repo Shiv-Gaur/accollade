@@ -24,100 +24,147 @@ function GalleryPage() {
   const galleryImages = [
     {
       id: 1,
-      category: "Competitions",
       src: "/assets/g2.png",
-      alt: "Tech Conference Main Stage",
       description: "Opening ceremony of our annual tech conference with keynote speakers"
     },
     {
       id: 2,
-      category: "Competitions",
       src: "/assets/g3.png",
-      alt: "Hackathon Team",
       description: "Teams working intensively during our 48-hour hackathon challenge"
     },
     {
       id: 3,
-      category: "Workshops",
       src: "/assets/g4.png",
-      alt: "Workshop Session",
       description: "Interactive AI workshop led by industry professionals"
     },
     {
       id: 4,
-      category: "Exhibition",
       src: "/assets/g5.png",
-      alt: "Tech Exhibition",
       description: "Cutting-edge technology showcase with live demonstrations"
     },
     {
       id: 5,
-      category: "Exhibition",
       src: "/assets/g6.png",
-      alt: "Innovation Lab",
       description: "Our state-of-the-art innovation lab during a prototype testing session"
     },
     {
       id: 6,
-      category: "Competitions",
       src: "/assets/g7.png",
-      alt: "Coding Competition",
       description: "Participants during the intense coding challenge finals"
     },
     {
       id: 7,
-      category: "Behind The Scenes",
       src: "/assets/g8.png",
-      alt: "Event Planning",
       description: "Our team during final preparations for the event"
     },
     {
       id: 8,
-      category: "Workshops",
       src: "/assets/g9.png",
-      alt: "Group Discussion",
       description: "Collaborative problem-solving session during our design thinking workshop"
     },
     {
       id: 9,
-      category: "Behind The Scenes",
       src: "/assets/g10.png",
-      alt: "Event Setup",
       description: "Setting up the main stage before the event begins"
     },
     {
       id: 10,
-      category: "Competitions",
       src: "/assets/g11.png",
-      alt: "Award Ceremony",
       description: "Winners of the robotics competition receiving their awards"
     },
     {
       id: 11,
-      category: "Exhibition",
       src: "/assets/g12.png",
-      alt: "VR Demo",
       description: "Attendees experiencing our virtual reality exhibition"
     },
     {
       id: 12,
-      category: "Workshops",
       src: "/assets/g13.png",
-      alt: "Hands-on Workshop",
       description: "Participants getting hands-on experience with new technologies"
     },
     {
-      id: 11,
-      category: "Exhibition",
+      id: 13,
       src: "/assets/g14.png",
-      alt: "VR Demo",
       description: "Attendees experiencing our virtual reality exhibition"
     },
     {
-      id: 11,
-      category: "Exhibition",
+      id: 14,
       src: "/assets/g15.png",
-      alt: "VR Demo",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 15,
+      src: "/assets/g16.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 16,
+      src: "/assets/g17.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 17,
+      src: "/assets/g18.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 18,
+      src: "/assets/g19.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 19,
+      src: "/assets/g20.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 20,
+      src: "/assets/g21.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 21,
+      src: "/assets/g22.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 22,
+      src: "/assets/g23.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 23,
+      src: "/assets/g24.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 24,
+      src: "/assets/g25.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 25,
+      src: "/assets/g26.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 26,
+      src: "/assets/g27.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 27,
+      src: "/assets/g28.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 28,
+      src: "/assets/g29.png",
+      description: "Attendees experiencing our virtual reality exhibition"
+    },
+    {
+      id: 29,
+      src: "/assets/g30.png",
       description: "Attendees experiencing our virtual reality exhibition"
     },
   ];
