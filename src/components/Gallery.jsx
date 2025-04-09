@@ -15,27 +15,22 @@ function Gallery() {
     {
       id: 1,
       src: "/assets/g1.png",
-      alt: "Tech Conference"
     },
     {
       id: 2,
       src: "/assets/g2.png",
-      alt: "Hackathon"
     },
     {
       id: 3,
       src: "/assets/g3.png",
-      alt: "Workshop"
     },
     {
       id: 4,
       src: "/assets/g4.png",
-      alt: "Tech Exhibition"
     },
     {
       id: 5,
       src: "/assets/g5.png",
-      alt: "Innovation Lab"
     },
   ];
 
