@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Add this if it's not already present
+
 
 function Hero() {
   const [countdown, setCountdown] = useState({
@@ -85,12 +87,13 @@ function Hero() {
           </div>
           
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center md:justify-start">
-            <a 
-              href="/events" 
+              <Link 
+              to="/events" 
               className="cyber-border px-8 py-3 bg-cyberblue hover:bg-cyberblue/80 transition-colors text-white text-lg"
-            >
+              >
               Register Now
-            </a>
+              </Link>
+
             <a 
               href="#about" 
               className="cyber-border px-8 py-3 bg-transparent hover:bg-neonblue/20 transition-colors text-white text-lg"
