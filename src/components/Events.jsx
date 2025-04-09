@@ -26,10 +26,10 @@ function Events() {
       title: "Squid Games",
       category: "Ground Events",
       image: "/assets/squid.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform"
+      description: "Get ready to unleash your inner champion at Accolade 3.0 with a thrilling lineup of games! First, strategise and outwit your opponent in the timeless battle of minds with Chess. Then, feel the raw power and teamwork as you lock horns in the ultimate test of strength in Tug of War. Switch gears and dive into the chaotic fun of Gully Cricket, where improvised rules and street smarts reign supreme. Prepare to enter the eerie world of the Upside Down in our Treasure Hunt, themed 'Stranger Things', where you'll decipher cryptic clues and race against time to uncover hidden treasures from another dimension. Push your limits in the Bahubali Pushups competition, testing your endurance and strength like the mighty warrior himself. Finally, brace yourselves for a unique and exciting take on the global phenomenon, Squid Game (rest assured, Accolade 3.0's version will be all about fun and friendly competition!). Don't miss out on this epic showdown of skill, strength, strategy, and sheer fun!",
+      fullDescription: "Get ready to unleash your inner champion at Accolade 3.0 with a thrilling lineup of games! First, strategise and outwit your opponent in the timeless battle of minds with Chess. Then, feel the raw power and teamwork as you lock horns in the ultimate test of strength in Tug of War. Switch gears and dive into the chaotic fun of Gully Cricket, where improvised rules and street smarts reign supreme. Prepare to enter the eerie world of the Upside Down in our Treasure Hunt, themed 'Stranger Things', where you'll decipher cryptic clues and race against time to uncover hidden treasures from another dimension. Push your limits in the Bahubali Pushups competition, testing your endurance and strength like the mighty warrior himself. Finally, brace yourselves for a unique and exciting take on the global phenomenon, Squid Game (rest assured, Accolade 3.0's version will be all about fun and friendly competition!). Don't miss out on this epic showdown of skill, strength, strategy, and sheer fun!",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
+      pdfLink: "/assets/CODE HUNT RULE.pdf"
     },
     {
       id: 3,
@@ -60,9 +60,10 @@ function Events() {
       title: "Code Hunt",
       category: "Competition",
       image: "/assets/codehunt.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
+      description: "Dive into a world of logic, mystery, and code-breaking brilliance! CODE HUNT is an exhilarating individual event designed for sharp minds who love a challenge. Conducted in a hybrid format, this two-round competition will test your programming prowess, puzzle-solving skills, and analytical thinking.",
+      fullDescription: "Dive into a world of logic, mystery, and code-breaking brilliance! CODE HUNT is an exhilarating individual event designed for sharp minds who love a challenge. Conducted in a hybrid format, this two-round competition will test your programming prowess, puzzle-solving skills, and analytical thinking.",
+      details: ["Round 1: Digital Quest – A fast-paced 60-minute session packed with logical puzzles and tech-focused MCQs.",
+        "Round 2: The Cipher Hunt – A thrilling 2–3 hour journey through a labyrinth of ciphers, riddles, and clues."],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfeabsFCY62B94oU8JOU8ZOB_EV2sWK7bW46sYkX8QkXvGWKQ/viewform"
     },
     {
