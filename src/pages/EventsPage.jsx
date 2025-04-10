@@ -53,10 +53,10 @@ function EventsPage() {
       title: "Squid Games",
       category: "Ground Events",
       image: "/assets/squid.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform"
+      description: "A thrilling, multi-level challenge inspired by the popular Netflix series." ,
+      fullDescription: "A thrilling, multi-level challenge inspired by the popular Netflix series. Players must survive four rounds blending individual skill and teamwork, including iconic games like Red Light Green Light and mystery rounds revealed only during the event. Strategy, speed, and sharp instincts are essential—only the strongest and smartest make it to the end",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
+      pdfLink: "/assets/Squid Games.pdf"
     },
     {
       id: 3,
@@ -116,25 +116,52 @@ function EventsPage() {
       image: "/assets/openmic.png",
       description: "...",
       fullDescription: "...",
-      details: []
+      details: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform",
+      pdfLink: "/assets/TDH workshops.pdf"
     },
     {
       id: 8,
-      title: "Ground Events",
-      category: "Ground Events",
-      image: "/assets/grnd.png",
-      description: "...",
-      fullDescription: "...",
-      details: []
-    },
-    {
-      id: 9,
       title: "Build AI",
       category: "Competition",
       image: "/assets/buildai.png",
       description: "...",
       fullDescription: "...",
-      details: []
+      details: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform",
+      pdfLink: "/assets/TDH workshops.pdf"
+    },
+    {
+      id: 9,
+      title: "Chess",
+      category: "Ground Events",
+      image: "/assets/grnd.png",
+      description: "An intellectual battleground where strategic prowess meets mental endurance.​",
+      fullDescription: "An intellectual battleground where strategic prowess meets mental endurance. Participants will face off in classic chess matches under FIDE rules, progressing through knock-out and round-robin formats. Victory hinges on foresight, discipline, and precision. The event emphasizes silence, fair play, and sharp minds in this timeless game of wits.​",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
+      pdfLink: "/assets/Chess.pdf"
+    },
+    {
+      id: 10,
+      title: "Gully Cricket",
+      category: "Ground Events",
+      image: "/assets/grnd.png",
+      description: "...",
+      fullDescription: "...",
+      details: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
+      pdfLink: "/assets/Gully Cricket.pdf"
+    },
+    {
+      id: 11,
+      title: "Treasure Hunt",
+      category: "Ground Events",
+      image: "/assets/grnd.png",
+      description: "...",
+      fullDescription: "...",
+      details: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
+      pdfLink: "/assets/Treasure Hunt.pdf"
     }
   ];
   
