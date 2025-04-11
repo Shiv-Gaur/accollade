@@ -64,7 +64,8 @@ function Events() {
       fullDescription: "Dive into a world of logic, mystery, and code-breaking brilliance! CODE HUNT is an exhilarating individual event designed for sharp minds who love a challenge. Conducted in a hybrid format, this two-round competition will test your programming prowess, puzzle-solving skills, and analytical thinking.",
       details: ["Round 1: Digital Quest – A fast-paced 60-minute session packed with logical puzzles and tech-focused MCQs.",
         "Round 2: The Cipher Hunt – A thrilling 2–3 hour journey through a labyrinth of ciphers, riddles, and clues."],
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfeabsFCY62B94oU8JOU8ZOB_EV2sWK7bW46sYkX8QkXvGWKQ/viewform"
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfeabsFCY62B94oU8JOU8ZOB_EV2sWK7bW46sYkX8QkXvGWKQ/viewform",
+      pdfLink: "/assets/CODE HUNT RULE.pdf"
     },
     {
       id: 6,
