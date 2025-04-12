@@ -115,9 +115,8 @@ function EventsPage() {
       title: "Open Mic",
       category: "Workshop",
       image: "/assets/openmic.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
+      description: "Where Silence Ends and Stories Begin ,The stage doesn’t judge.",
+      fullDescription: "A mic, a spotlight, and your voice that’s all it takes to spark a connection. Sing your heart out, spit some poetry, crack them up with stand-up, or share the untold stroy the Open Mic welcomes your vibe, your story, your art.No filters. Just raw emotions and real applause.",
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform",
       pdfLink: "/assets/TDH workshops.pdf"
     },
@@ -149,13 +148,12 @@ function EventsPage() {
       image: "/assets/grnd.png",
       description: "Experience the thrill of street-style cricket with our 5-a-side, knockout-format event! ",
       fullDescription: "Experience the thrill of street-style cricket with our 5-a-side, knockout-format event! With quick 4-over matches (5 in the final), quirky rules like “one tip one hand is out,” and fun twists on boundaries and scoring, Gully Cricket is all about energy, excitement, and community spirit. All equipment provided—just bring your game!",
-      details: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
       pdfLink: "/assets/Gully Cricket.pdf"
     },
     {
       id: 11,
-      title: "Treasure Hunt",
+      title: "The Upside Down",
       category: "Ground Events",
       image: "/assets/grnd.png",
       description: "...",
