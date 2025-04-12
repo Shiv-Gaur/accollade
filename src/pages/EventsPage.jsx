@@ -125,9 +125,10 @@ function EventsPage() {
       title: "Build AI",
       category: "Competition",
       image: "/assets/buildai.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
+      description: "We’re excited to announce that GDG Dehradun is hosting its first-ever Build with AI event!",
+      fullDescription: "We’re excited to announce that GDG Dehradun is hosting its first-ever Build with AI event! This is a golden opportunity for developers, students, professionals, and AI enthusiasts in the region to connect, learn, and grow together in a collaborative environment. The event will feature inspirational talks and technical sessions from leading experts in the field of AI and ML. We are proud to welcome our esteemed speakers:",
+      details: ["- Sumit Tyagi – A passionate technologist and community leader with deep expertise in AI and software development.",
+"- Ashutosh Bhakre – Known for his contributions to AI education and real-world ML applications, Ashutosh brings a wealth of experience and insight."],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform",
       pdfLink: "/assets/TDH workshops.pdf"
     },
