@@ -118,7 +118,7 @@ function EventsPage() {
       description: "Where Silence Ends and Stories Begin ,The stage doesn’t judge.",
       fullDescription: "A mic, a spotlight, and your voice that’s all it takes to spark a connection. Sing your heart out, spit some poetry, crack them up with stand-up, or share the untold stroy the Open Mic welcomes your vibe, your story, your art.No filters. Just raw emotions and real applause.",
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_vyHrj4raAKa7JilzxVurKGme0br-s3ApwJaHyuJrGOX7ew/viewform",
-      pdfLink: "/assets/TDH workshops.pdf"
+      pdfLink: "/assets/Shankhnaad.pdf"
     },
     {
       id: 8,
@@ -166,12 +166,12 @@ function EventsPage() {
       id: 12,
       title: "Short film Competition",
       category: "Ground Events",
-      image: "/assets/grnd.png",
+      image: "/assets/shankhnaad.png",
       description: "...",
       fullDescription: "...",
       details: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
-      pdfLink: "/assets/Treasure Hunt.pdf"
+      pdfLink: "/assets/Shankhnaad.pdf"
     }
   ];
   
