@@ -161,6 +161,17 @@ function EventsPage() {
       details: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
       pdfLink: "/assets/Treasure Hunt.pdf"
+    },
+    {
+      id: 12,
+      title: "Short film Competition",
+      category: "Ground Events",
+      image: "/assets/grnd.png",
+      description: "...",
+      fullDescription: "...",
+      details: [],
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
+      pdfLink: "/assets/Treasure Hunt.pdf"
     }
   ];
   
