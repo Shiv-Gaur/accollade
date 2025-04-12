@@ -147,8 +147,8 @@ function EventsPage() {
       title: "Gully Cricket",
       category: "Ground Events",
       image: "/assets/grnd.png",
-      description: "...",
-      fullDescription: "...",
+      description: ".Experience the thrill of street-style cricket with our 5-a-side, knockout-format event! ",
+      fullDescription: "Experience the thrill of street-style cricket with our 5-a-side, knockout-format event! With quick 4-over matches (5 in the final), quirky rules like “one tip one hand is out,” and fun twists on boundaries and scoring, Gully Cricket is all about energy, excitement, and community spirit. All equipment provided—just bring your game!",
       details: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
       pdfLink: "/assets/Gully Cricket.pdf"
