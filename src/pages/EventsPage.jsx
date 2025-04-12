@@ -156,8 +156,8 @@ function EventsPage() {
       title: "The Upside Down",
       category: "Ground Events",
       image: "/assets/grnd.png",
-      description: "Experience the thrill of street-style cricket with our 5-a-side, knockout-format event!",
-      fullDescription: "Experience the thrill of street-style cricket with our 5-a-side, knockout-format event! With quick 4-over matches (5 in the final), quirky rules like “one tip one hand is out,” and fun twists on boundaries and scoring, Gully Cricket is all about energy, excitement, and community spirit. All equipment provided—just bring your game!",
+      description: "Step into the eerie world of Stranger Things with "The Upside Down" — a thrilling treasure hunt packed with riddles, hidden clues, and mystery.",
+      fullDescription: "Step into the eerie world of Stranger Things with "The Upside Down" — a thrilling treasure hunt packed with riddles, hidden clues, and mystery. Teams of four will race through mind-bending challenges, solve puzzles, and uncover secrets. Strategy, teamwork, and sharp thinking will be key. Only one team will emerge victorious and claim the themed prize. Are you ready to explore the unknown?",
       details: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
       pdfLink: "/assets/Treasure Hunt.pdf"
@@ -167,8 +167,9 @@ function EventsPage() {
       title: "Short film Competition",
       category: "Ground Events",
       image: "/assets/shankhnaad.png",
-      description: "...",
-      fullDescription: "...",
+      description: "Every frame is a blank canvas, every second a new emotion.",
+      fullDescription: "Every frame is a blank canvas, every second a new emotion. From raw ideas to cinematic brilliance, bring your vision to life and let the reel do the talking. Whether it’s a plot twist, a silent stare, or a powerful dialogue let your story echo long after the credits roll.
+Your imagination, our screen. Lights? Ready. Action!",
       details: [],
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScw3v3cjljFw1FAXnamNeFtzNNh_UmH2zqXX_PbX-7rN9QXSA/viewform",
       pdfLink: "/assets/Shankhnaad.pdf"
