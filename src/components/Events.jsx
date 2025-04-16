@@ -36,9 +36,10 @@ function Events() {
       title: "Shankhnaad",
       category: "Competition",
       image: "/assets/shankhnaadmain.png",
-      description: "...",
-      fullDescription: "...",
-      details: [],
+      description: "Shankhnaad 2025 A celebration of creativity,Shankhnaad features a short film competition and an open mic event. From powerful short film to expressive performances in poetry, comedy, rap, and more—it's a stage for storytellers and artists to shine.",
+      fullDescription: "A celebration of creativity, Shankhnaad features a short film competition and an open mic event. From powerful short films to expressive performances in poetry, comedy, rap, and more—it's a stage for storytellers and artists to shine.
+
+",
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScrCWcW3cQNzP_lsI1lXWdAxv2trpUOO5CeQGZUYTTlaJeBQQ/viewform",
       pdfLink: "/assets/Shankhnad.pdf"
     },
